@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Add Bootstrap CSS link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add your custom CSS here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">RHYTHM DHINGRA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>RHYTHM DHINGRA</h1>
+                    <p>Web Developer</p>
+                    <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Add an image of yourself here -->
+                    <img src="rhythm.jpg" alt="Your Name" class="img-fluid" height="200px" width="200px">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>About Me</h2>
+                    <p>An aspiring software developer who are specialised in C,C++,Java, PHP.I have completed Advance Course in Data Science. I am passionate about the computer with knowledge of computer languages and application.
+                        I am keen to learn and explore more information and experience. I want to work for advance levels in the same.
+                        I have also made project on Library Management System in PHP language in bachelors degree. 
+                       I have done 8 weeks training for Android App Development from Internshala Trainings in June, 2020.
+                       I have the main motive of being a software developer and take deeper knowledge in development of softwares.</p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Add any additional information or skills here -->
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <!-- Add your portfolio projects here -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <!-- Add an image and description for each project -->
+                        <img src="LMS.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Library Management System</h5>
+                            <p class="card-text">An integrated library management system (LMS) is ERP software that helps in simplifying the daily operations of the library. The purpose of a library management system is to manage & track the daily work of the library such as issuing books, return books, due calculations, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Add a contact form here or provide contact information -->
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <!-- Add your contact information here -->
+                    <h3>Contact Information</h3>
+                    <p>Email: rhythm2411@gmail.com</p>
+                    <p>Phone: +918447272757</p>
+                    <p>Location: Ghaziabad, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Bootstrap and custom JavaScript links here if needed -->
+    <!-- Add Bootstrap JS scripts here -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
